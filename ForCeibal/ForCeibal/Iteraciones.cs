@@ -55,9 +55,7 @@ namespace Main
                 Console.Write(String.Concat(Enumerable.Repeat(" *", i)));
                 Console.WriteLine();
             }
-
-
-
+                        
             for (int i = 8; i > 0; i--)
             {
                 Console.Write(new string(' ', 8 - i));
